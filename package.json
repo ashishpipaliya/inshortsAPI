@@ -1,0 +1,15 @@
+{
+    "name": "inshorts-api",
+    "version": "1.0.0",
+    "description": "inshorts private API ",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "ashish",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.20.0",
+        "express": "^4.17.1"
+    }
+}
