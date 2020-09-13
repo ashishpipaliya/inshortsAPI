@@ -8,7 +8,7 @@ app.get('/:category', (req, res) => {
 
     var category = req.params.category;
 
-    const base_url = "http://inshorts.com/api/en/search/trending_topics/" + category + "&max_limit=30&type=NEWS_CATEGORY";
+    const base_url = "http://inshorts.com/api/en/search/trending_topics/" + category + "&max_limit=50&type=NEWS_CATEGORY";
 
     var newsResponse = {};
     var articles = [];

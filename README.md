@@ -6,7 +6,7 @@ ___
 ___
 ## :mag: usage
 
-http://localhost:3000/category_name_here
+https://inshorts-news.herokuapp.com/category_name_here
 
 ___
 ### :sparkles: Categories
