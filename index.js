@@ -13,8 +13,6 @@ app.get('/:category', (req, res) => {
     var newsResponse = {};
     var articles = [];
 
-
-
     axios.get(base_url).then((response) => {
         var articleCount = response.data.data.news_list.length;
 
